@@ -290,7 +290,7 @@ const ContactForm = () => {
             <>
               <div className="text-center mb-10 md:mb-14 px-2">
                 <h2 className="text-3xl md:text-4xl font-display mb-4 italic tracking-tight">Diagnóstico Sniper.</h2>
-                <p className="text-slate-400 text-sm md:text-lg font-light">Para clínicas con inversión > $2,000/mes que buscan dominar su mercado.</p>
+                <p className="text-slate-400 text-sm md:text-lg font-light">Para clínicas con inversión &gt; $2,000/mes que buscan dominar su mercado.</p>
               </div>
               <form onSubmit={handleSubmit} className="space-y-6 md:space-y-8">
                 <div className="grid md:grid-cols-2 gap-6 md:gap-8">
