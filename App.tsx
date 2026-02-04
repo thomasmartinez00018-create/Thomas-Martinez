@@ -253,7 +253,7 @@ const PainPoints = () => (
         ].map((point, i) => (
           <div key={i} className="space-y-4 md:space-y-6 px-2">
             <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-slate-900 border border-white/5 flex items-center justify-center text-emerald-500 shadow-xl">
-              {React.cloneElement(point.icon as React.ReactElement, { className: "w-6 h-6 md:w-8 md:h-8" })}
+              {React.cloneElement(point.icon as React.ReactElement<any>, { className: "w-6 h-6 md:w-8 md:h-8" })}
             </div>
             <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tighter">{point.title}</h3>
             <p className="text-sm md:text-base text-slate-400 leading-relaxed font-light">{point.desc}</p>
